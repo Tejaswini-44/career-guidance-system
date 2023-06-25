@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin:auto;
+}
+header{
+	background: url("C:\Users\YOSMITHA\Desktop\New folder\css\1.jpg");
+	height: 100vh;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.logo img{
+	width: 100px;
+	float: left;
+	height:auto;
+}
+.welcome-text{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1{
+	border: 1px solid #fff;
+	padding:10px 25px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin top: 20px;
+	display: inline-block;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+}

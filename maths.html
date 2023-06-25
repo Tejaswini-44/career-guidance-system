@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+<body>
+<h1>COURSES RELATED TO MATHS</h1>
+<div class="row">
+	<div class = "column">
+		<div class="container">
+			<a href = "ss1.html"><img src='dataanalyst.webp' width = "400px" height = "400px"></a>
+			<div class="content">
+				<h>DATA ANALYST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "ss2.html"><img src='datascientist.jpg'width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>DATA SCIENTIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column"> 
+    	<div class="container">
+    		<a href = "ss3.html"><img src = 'softwaretester.jpg' width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>SOFTWARE TESTER</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "ss4.html"><img src = 'acousticconsultant.webp' width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>ACOUSTIC CONSULTANT</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "ss5.html"><img src = 'chatteredaccountant.png' width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>CHATTERED ACCOUNTANT</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "ss6.html"><img src = 'financialanalyst.jpg' width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>FINANCIAL ANALYST</h>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+<body>
+<h1>COURSES RELATED TO SOCIAL</h1>
+<div class="row">
+	<div class = "column">
+		<div class="container">
+			<a href = "social1.html"><img src="lawyer1.jpg" width = "400px" height = "400px"></a>
+			<div class="content">
+				<h>LAWYER</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "social3.html"><img src="arch.jpg" width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>ARCHAELOGIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column"> 
+    	<div class="container">
+    		<a href = "social4.html"><img src = "pc.jpg" width="400px" height = "400px"></a>
+            <div class="content">
+            	<h>POLITICAL CONSULTANT</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "social2.html"><img src = "hr.jpg" width = "400px" height = "400px"></a>
+            <div class="content">
+            	<h>HUMAN RESOURCE MANAGER</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "social5.html"><img src = "mm.jpg" width ="400" height = "400px"></a>
+            <div class="content">
+            	<h>MARKETING MANAGER</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+    	<div class="container">
+    		<a href = "social6.html"><img src = "jou1.jpg" width="400" height = "400px"></a>
+            <div class="content">
+            	<h>JOURNALIST</h>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+ 
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+<body>
+<h1>COURSES RELATED TO SCIENCE</h1>
+<div class="row">
+    <div class="column">
+        <div class="container">
+            <a href = "s1.html"><img src='physicist.jpg' width = "400px" height = "400px"></a>
+            <div class="content">
+                <h>PHYSICIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="container">
+            <a href = "s2.html"><img src='chemist.webp' width = "400px" height = "400px"></a>
+            <div class="content">
+                <h>CHEMIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="container">
+            <a href = "s3.html"><img src='researchscientist.jpg' width = "400px" height = "400px"></a>
+            <div class="content">
+                <h>RESEARCH SCIENTIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="container">
+            <a href = "s4.html"><img src='pharmacist.webp' width = "400px" height = "400px"></a>
+            <div class="content">
+                <h>PHARMACIST</h>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="container">
+            <a href = "s5.html"><img src='astronaut.jpg' width = "400px" height = "400px"></a>
+            <div class="content">
+                <h>ASTRONAUT</h>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
